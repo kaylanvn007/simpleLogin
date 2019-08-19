@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'roboto';
+    background: linear-gradient(120deg,#3498db,#222831);
+}
+
+h2{
+    position: relative;
+    top:20%;
+    color:white;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: white;
+    background: black;
+    padding:1rem 0;
+}
+
+.required{
+    color: red;
+    clear: both;
+}
+
+.error{
+    position: relative;
+    text-align: left;
+    top:27%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    margin: 5px 10%;
+}
+
+.alert{
+    position: relative;
+    background: #3498db;
+    top:20%;
+    color: yellow;
+}
+
+form{
+    overflow: auto;
+
+}
+
+label{
+    float:left;
+}
+
+
+.login-form{
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    width:360px;
+    height: 480px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+input{  
+    width: 60%;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    background: black;
+    border: 2px solid #3498db;
+    border-style: none none solid none;
+    color: white;
+    outline: none;
+    text-align: left;
+}
+
+
+.submit{
+    text-align: center;
+    margin-top: 5%;
+    width:70%;
+    border-style: solid;
+    border-radius: 25px;
+    background:black;
+    font-size: 15px;
+}
+
+.submit:hover{
+    transition: 0.5s;
+    background: #3498db;
+}
+
+.input-form:focus{
+    width:75%;
+    transition: 0.5s;
+}
+
+p,a{
+    position: relative;
+    top: 25%;
+    padding-top: 10px;
+    color: white;
+}
