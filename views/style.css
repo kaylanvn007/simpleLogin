@@ -57,7 +57,7 @@ label{
 
 
 .login-form{
-    background: black;
+    background: linear-gradient(-45deg, #111 0%, #333 100%);
     border-radius: 10px;
     position: absolute;
     width:360px;
@@ -66,6 +66,7 @@ label{
     top:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    border: 1px solid #111;
 }
 
 input{  
